@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="input-section">
+            <input type="text" id="locationInput" placeholder="ENTER A CITY NAME">
+            <button onclick="getWeatherByInput()"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather-section" id="weatherSection">
+            <h2 id="location"></h2>
+            <p id="description"></p>
+            <p id="temperature"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   
+</head>
+<body>
+  <div class="weather-app">
+    <div class="container">
+        <h3 class="brand">The Weather</h3>
+        <div class="inner">
+            <h1 class="temp">39&#176;</h1>
+            <div class="city-time">
+                <h1 class="name">Delhi</h1>
+                <small>
+                    <span class="time">11:12</span>
+                    <span class="date">Tuesday June 4</span>
+                </small>
+            </div>
+            <div class="weather">
+                <img src="./64x64/day/113.png" alt="icon" class="icon" width="50" height="50">
+                <span class="condition">Sunny</span>
+            </div>
+        </div>
+    </div>
+  
+  <div class="panel">
+    <form id="location">
+        <input type="text" class="search" placeholder="Search Location...">
+        <button type="submit" class="submit"><i class="fas fa-search"></i></button>
+        
+    </form>
+       <ul class="details">
+        <h4>Weather Details</h4>
+        <li>
+            <span>Cloudy</span>
+            <span class="cloud"></span>
+        </li>
+        <li>
+            <span>Humidity</span>
+            <span class="humidity">64%</span>
+        </li>
+        <li>
+            <span>Wind</span>
+            <span class="wind">8km/h</span>
+        </li>
+       </ul>
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html> -->
